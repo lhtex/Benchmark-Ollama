@@ -1,0 +1,3 @@
+model,latency_sec,total_time_sec,tokens,tokens_per_sec,cpu_percent,gpu_percent,ane_percent
+phi3:3.8b,4.159,61.733,1031,16.70,0.39,44.93,0.00
+llama3.1:8b,7.132,32.505,323,9.94,0.24,27.52,0.00
