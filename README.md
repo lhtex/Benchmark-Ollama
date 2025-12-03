@@ -1,4 +1,4 @@
-# Ollama Benchmark Suite — MacBook M4 (CPU / GPU / ANE)
+# Ollama Benchmark Suite — MacBook M4
 
 Este repositório contém uma suíte completa de benchmark para avaliar o desempenho de modelos executados via **Ollama** no **MacBook M4**, medindo:
 
@@ -13,10 +13,9 @@ Este repositório contém uma suíte completa de benchmark para avaliar o desemp
   - Badges de dominância (CPU / GPU / ANE)
   - Indicadores automáticos de ANE suportado / não suportado
 
----
 
 ## 📁 Estrutura do Repositório
-
+```
 /
 ├── scripts/
 │   └── ollama_benchmark_m4_final.sh     # Script principal de benchmark
@@ -39,8 +38,7 @@ Este repositório contém uma suíte completa de benchmark para avaliar o desemp
 │
 ├── LICENSE
 └── README.md
-
----
+```
 
 ## ⚙️ Requisitos
 
@@ -51,7 +49,6 @@ Este repositório contém uma suíte completa de benchmark para avaliar o desemp
   
 ```bash
   pip3 install pandas matplotlib
-
 ```
 
 ## 🚀 Como rodar o benchmark
@@ -136,6 +133,6 @@ git checkout dev
 
 ## ✨ Autor
 
-**Lincoln Herbert Teixeira**
-Professor da UTFPR
-Especialista em Redes 4G/5G, IA, ESP32, Sistemas Inteligentes, Computação Veicular e IA.
+### Lincoln Herbert Teixeira
+##### Professor da UTFPR
+##### Especialista em Redes 4G/5G, IA, ESP32, Sistemas Inteligentes, Computação Veicular e IA.
