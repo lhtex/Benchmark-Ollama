@@ -1,0 +1,48 @@
+name: Benchmark CI
+
+on:
+  push:
+    branches: [ "main", "dev" ]
+  pull_request:
+    branches: [ "main", "dev" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: "3.10"
+
+    - name: Install Dependencies
+      run: pip install pandas matplotlib
+
+    - name: Validate Script Syntax
+      shell: bash
+      run: bash -n scripts/ollama_benchmark_advanced.sh
+
+    - name: Simulated Run
+      run: |
+        echo "Simulando geração de CSV..."
+        python3 - <<EOF
+import pandas as pd
+df = pd.DataFrame({
+   'model':['test'],
+   'group':['LARGE'],
+   'latency_sec':[1],
+   'total_time_sec':[2],
+   'tokens':[100],
+   'tokens_per_sec':[50],
+   'cpu_percent':[40],
+   'gpu_percent':[30],
+   'ane_percent':[0],
+   'ane_used_flag':[0],
+})
+df.to_csv('results/mock.csv',index=False)
+print("Simulação concluída.")
+EOF
