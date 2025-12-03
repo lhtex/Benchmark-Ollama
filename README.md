@@ -60,20 +60,20 @@ Este repositório contém uma suíte completa de benchmark para avaliar o desemp
 Clone o repositório:
 
 ```bash
-git clone https://github.com/<SEU_USUARIO>/ollama-benchmark-m4.git
+git clone https://github.com/lhtex/ollama-benchmark-advanced.git
 cd ollama-benchmark-m4
 ```
 
 Dê permissão ao script:
 
 ```bash
-chmod +x scripts/ollama_benchmark_m4_final.sh
+chmod +x scripts/ollama_benchmark_advanced.sh
 ```
 
 Execute:
 
 ```bash
-./scripts/ollama_benchmark_m4_final.sh
+./scripts/ollama_benchmark_advanced.sh
 ```
 
 Ao final, abra:
@@ -138,9 +138,9 @@ git checkout dev
 ## ✨ Autor
 
 **Lincoln Herbert Teixeira**
-Professor EBTT — UTFPR
-Especialista em Redes 4G/5G, IA, ESP32, Sistemas Inteligentes e Computação Veicular.
 
----
+Professor EBTT — UTFPR
+
+Especialista em Redes 4G/5G, IA, ESP32, Sistemas Inteligentes, Computação Veicular e IA.
 
 ````
