@@ -1,4 +1,3 @@
-```markdown
 # 🔥 Ollama Benchmark Suite — MacBook M4 (CPU / GPU / ANE)
 
 Este repositório contém uma suíte completa de benchmark para avaliar o desempenho de modelos executados via **Ollama** no **MacBook M4**, medindo:
@@ -142,5 +141,3 @@ git checkout dev
 Professor EBTT — UTFPR
 
 Especialista em Redes 4G/5G, IA, ESP32, Sistemas Inteligentes, Computação Veicular e IA.
-
-````
